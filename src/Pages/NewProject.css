@@ -1,0 +1,118 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: "Cinzel";
+    src: url("./assets/fonts/Cinzel-Regular.ttf");
+  }
+.newproject{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+.container{
+    border-radius: 35px;
+    margin-top: 80px;
+    width: 900px;
+    height: 700px;
+    background-color: black;
+}
+.container p{
+    margin: 0px;
+    padding: 0px;
+    font-size: large;
+    color: white;
+    font-family: "Cinzel";
+    margin-top: 25px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.container label{
+    margin-left: 20px;
+    color: white;
+    font-family: "Cinzel";
+    margin-bottom: 10px;
+}
+.container input:hover {
+    background-color: #505050;
+}
+.pinput:hover{
+    background-color: #505050;
+}
+.container input{
+    padding: 5px;
+    color: white;
+    margin-left: 20px;
+    width: 840px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: gray;
+}
+.NPPicture{
+    cursor: pointer;
+    max-width: 800px;
+    max-height: 800px;
+}
+.pinput{
+    resize: vertical;
+    padding: 5px;
+    color: white;
+    margin-left: 20px;
+    width: 840px;
+    height: 70px;
+    max-height: 140px;
+    border-radius: 5px;
+    cursor:text;
+    border-color: transparent;
+    background-color: gray;
+}
+.form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form button{
+    margin-top: 20px;
+    margin-left: 802px;
+    font-family: "Cinzel";
+    border-radius: 20px;
+    background-color: gray;
+    width: 70px;
+    height: 30px;
+    border: 1px transparent;
+}
+.form button:hover{
+    background-color: #505050;
+}
+.cImages{
+    margin-left: 0px;
+    display: flex;
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.cImages img{
+    max-width: 80px;
+    max-height: 80px;
+    margin-top: 5px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.cImages p{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 0px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cImages p:hover {
+    color: #d4af37;
+    text-shadow: 0 0 5px #d4af37, 0 0 10px #d4af37, 0 0 20px #d4af37;
+}
