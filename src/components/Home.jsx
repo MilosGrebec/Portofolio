@@ -4,7 +4,7 @@ const Home = () => {
     const navigate = useNavigate();
     
     return ( 
-        <>
+        <div className="homePage">
 
         <div className="home">
             <img src={picture1} className="coverPicture" alt="Milos Grebec"/>
@@ -15,8 +15,8 @@ const Home = () => {
                 <li onClick={()=>{navigate('/projects')}}>PROJECTS</li>
                 <li onClick={()=>{navigate('about')}}>ABOUT ME</li>
             </ul>
+        </div> 
         </div>
-        </>
      );
 }
  

@@ -1,0 +1,26 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+.projects{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.projectsImage{
+    cursor: pointer;
+    margin-top: 20px;
+}
+.projectsCointainer{
+    display: flex;
+    align-items: start;
+}
+.Projectcontainer{
+    border-radius: 35px;
+    margin-top: 10px;
+    width: 900px;
+    height: 700px;
+    background-color: black;
+}

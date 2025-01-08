@@ -10,6 +10,9 @@ body, html {
 .App{
   padding: 0;
   background-color: #1e2022;
+
+}
+.homePage{
   height: 100vh;
 }
 .home{
