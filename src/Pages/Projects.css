@@ -1,6 +1,6 @@
-body, html{
-    margin: 0px;
-    padding: 0px;
+@font-face {
+    font-family: "Cinzel";
+    src: url("./assets/fonts/Cinzel-Regular.ttf");
 }
 .projects{
     height: 100%;
@@ -15,12 +15,48 @@ body, html{
 }
 .projectsCointainer{
     display: flex;
-    align-items: start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 .Projectcontainer{
     border-radius: 35px;
     margin-top: 10px;
-    width: 900px;
-    height: 700px;
+    width: 700px;
+    height: 500px;
     background-color: black;
+}
+.projectTitle{
+    margin-top: 15px;
+    color: white;
+    font-family: "Cinzel";
+    text-align: center;
+    font-size: 30px;
+}
+.ProjectContent{
+    display: flex;
+}
+.AngelusLogo{
+    width: 350px;
+    height: inherit;
+}
+.AngelusContent{
+    margin-top:80px;
+    color: white;
+    font-family: "Cinzel";
+    font-size: 15px;
+}
+.more{
+    text-align: center;
+}
+.more p{
+    padding: 0px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-family: "Cinzel";
+}
+.more p:hover {
+    color: #d4af37;
+    text-shadow: 0 0 5px #d4af37, 0 0 10px #d4af37, 0 0 20px #d4af37;
 }

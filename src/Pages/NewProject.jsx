@@ -9,6 +9,15 @@ const Contact = () => {
     const home = ()=>{
         navigation("/");
     }
+    const Li= ()=>{
+        window.location.href="https://www.linkedin.com/in/milo%C5%A1-grebec-0117862a6/";
+    }
+    const git=()=>{
+        window.location.href="https://github.com/MilosGrebec";
+    }
+    const mail=()=>{
+        window.location.href="grebecmilos0@gmail.com";
+    }
     return (  
         <div className="newproject">
             <img className="NPPicture" src={picture1} onClick={home} alt="slika1"/>
@@ -26,11 +35,11 @@ const Contact = () => {
                 <p>Or you can contact me via:</p>
                 <div className="cImages">
                     <img src={linkedInP}/>
-                    <p>Grebec Milos</p>
+                    <p onClick={Li}>Grebec Milos</p>
                     <img src={githubP}/>
-                    <p>Grebec Milos</p>
+                    <p onClick={git}>Grebec Milos</p>
                     <img src={mailP}/>
-                    <p>grebecmilos0@gmail.com</p>
+                    <p onClick={mail}>grebecmilos0@gmail.com</p>
                 </div>
             </div>
         </div>

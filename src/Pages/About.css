@@ -1,4 +1,40 @@
-body html{
-    margin: 0;
-    padding: 0;
+.about{
+    height: 100%;
+    text-align: center;
+}
+.lore{
+    cursor: pointer;
+}
+.aboutCont{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.AboutImage{
+    margin-left: 20px;
+}
+.AboutImage img{
+    margin-bottom: 30px;
+    width: 500px;
+    height: inherit;
+}
+.aboutText{
+    margin-right: 15px;
+    text-align: justify;
+    margin-top: 0px;
+    margin-left: 20px;
+    color: white;
+    font-family: "Cinzel";
+}
+.aboutImages p{
+    margin-left: 40px;
+}
+.aboutImages{
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.aboutImages img{
+    width: 200px;
+    height: inherit;
 }
