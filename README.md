@@ -1,6 +1,6 @@
 # Portofolio
  Portofolio website using Vite+React
 
- Go chech it out:
+ Go check it out:
  
  https://milosgrebec.com/
